@@ -1,5 +1,5 @@
 class Person {
-    private id: BigInt;
+    private id: bigint;
   
     private name: string;
   
@@ -11,11 +11,11 @@ class Person {
       this.name = name;
     }
   
-    public getId(): BigInt {
+    public getId(): bigint {
       return this.id;
     }
   
-    public setId(id: BigInt): void {
+    public setId(id: bigint): void {
       this.id = id;
     }
   }

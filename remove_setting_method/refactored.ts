@@ -1,13 +1,13 @@
 class Person1 {
-  private id: BigInt;
+  private id: bigint;
 
   private name: string;
 
-  constructor(id: BigInt) {
+  constructor(id: bigint) {
     this.id = id;
   }
 
-  public getId(): BigInt {
+  public getId(): bigint {
     return this.id;
   }
 
